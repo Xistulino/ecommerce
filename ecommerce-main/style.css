@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(241, 217, 135);
+    color: black;
+}
+
+.topo{
+    height: 50px;
+    background-color: orange;
+    width: 100%;
+    margin: auto;
+}
+
+.menu{
+    float: right;
+}
+
+.menu ul,
+.menu li{      
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li{
+     float: left;                 
+     padding: 0 10px 0 10px;    
+     line-height: 50px;        
+     font-size: 14px;          
+     cursor: pointer; 
+     text-transform: uppercase;   
+}
+
+.menu li:hover{
+    background-color: #f01111;
+    text-shadow: 1px 1px 1px rgb(253, 251, 251);
+    border-radius: 10px; 
+}
+.menu a{ 
+    text-decoration: none;
+}
+
+.historia{
+    float: left;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 60px;
+    background-color: hsl(27, 90%, 55%);    
+}
+
+.logo{
+    float: left;
+    font-size: 24px;
+    line-height: 70px;
+}
+
+.confeitaria{
+    float: right;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 60px;
+    background-color: hsl(27, 90%, 55%);  
+}
+
+.imagem{
+    float: right;
+    font-size: 24px;
+    line-height: 70px;
+}
+
+.instagram > h4{
+    margin-top: 40px;
+    height: 50px;
+    text-align: center;
+    text-decoration: orange;
+    line-height: 50px;
+}
+
+.instagram > h4 > a > img{
+    margin-top: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
